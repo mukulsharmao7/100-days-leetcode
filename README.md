@@ -11,9 +11,9 @@
 - ✅ Day 3 - Edge Cases + Debugging  
 - ✅ Day 4 - Valid Palindrome  
 - ✅ Day 5 - Remove All Occurrences (LC 1910)  
-- ✅ Day 6 - Matrix Traversal + Spiral Matrix 🌀  
+- ✅ Day 6 - Matrix Traversal + Spiral Matrix 🌀
+- ✅ Day 7 - Search in 2D Matrix (Binary Search)
 
----
 
 ## 🧠 What I'm Learning
 
