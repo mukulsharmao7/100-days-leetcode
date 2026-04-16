@@ -13,6 +13,9 @@
 - ✅ Day 5 - Remove All Occurrences (LC 1910)  
 - ✅ Day 6 - Matrix Traversal + Spiral Matrix 🌀
 - ✅ Day 7 - Search in 2D Matrix (Binary Search)
+- ✅ Day 8 - Zigzag Conversion (LeetCode)
+
+
 
 
 ## 🧠 What I'm Learning
