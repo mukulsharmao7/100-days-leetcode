@@ -14,6 +14,19 @@
 - ✅ Day 6 - Matrix Traversal + Spiral Matrix 🌀
 - ✅ Day 7 - Search in 2D Matrix (Binary Search)
 - ✅ Day 8 - Zigzag Conversion (LeetCode)
+- ✅ Day 09 - Rotate Image
+
+## 📌 Problem Statement
+You are given an `n x n` 2D matrix representing an image. Rotate the image by **90 degrees clockwise** in-place.
+
+## 🧠 Approach
+To rotate the matrix without using extra space:
+
+1. **Transpose the matrix**  
+   Convert rows into columns.
+
+2. **Reverse each row**  
+   This gives the final 90° clockwise rotated matrix.
 
 
 
