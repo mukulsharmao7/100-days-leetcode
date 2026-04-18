@@ -14,6 +14,7 @@
 - ✅ Day 6 - Matrix Traversal + Spiral Matrix 🌀
 - ✅ Day 7 - Search in 2D Matrix (Binary Search)
 - ✅ Day 8 - Zigzag Conversion (LeetCode)
+
 - ✅ Day 09 - Rotate Image
 
 ## 📌 Problem Statement
@@ -40,6 +41,24 @@ To rotate the matrix without using extra space:
 
 ---
 
+✅ Day 10 - Rotate String
+
+## 📌 Problem Statement
+Given two strings `s` and `goal`, return true if `s` can become `goal` after some number of shifts.
+
+A shift means moving the first character of the string to the end.
+
+## 🧠 Approach
+
+Key observation:
+If `goal` is a rotation of `s`, then it must be a substring of `s + s`.
+
+### Steps:
+1. Check if lengths are equal
+2. Concatenate string with itself → `s + s`
+3. Check if `goal` is present in it
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🎯 Goals
 
 - 🚀 Build strong DSA foundation  
