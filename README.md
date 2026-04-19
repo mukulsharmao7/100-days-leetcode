@@ -58,6 +58,19 @@ If `goal` is a rotation of `s`, then it must be a substring of `s + s`.
 2. Concatenate string with itself → `s + s`
 3. Check if `goal` is present in it
 
+✅ Day 11 - Shuffle String 🔀
+
+## 📌 Problem
+You are given a string `s` and an integer array `indices`.  
+The task is to rearrange the string such that each character moves to the position specified by `indices[i]`.
+
+---
+
+## 🧠 Approach
+- Create a result string of same size
+- Place each character at its correct index using `indices`
+- Return the final string
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🎯 Goals
 
