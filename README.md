@@ -71,6 +71,34 @@ The task is to rearrange the string such that each character moves to the positi
 - Place each character at its correct index using `indices`
 - Return the final string
 
+✅ Day 12 - Count Primes (Sieve of Eratosthenes)
+
+## 🧩 Problem
+Given an integer `n`, return the number of prime numbers that are strictly less than `n`.
+
+### Example:
+Input: n = 10  
+Output: 4  
+Explanation: Prime numbers less than 10 are 2, 3, 5, 7.
+
+---
+
+## 🚀 Approach: Sieve of Eratosthenes
+
+- Create a boolean array `isPrime` of size `n`
+- Initially mark all numbers as prime
+- Start from 2 and mark all multiples as non-prime
+- Count remaining prime numbers
+
+---
+
+## ⏱️ Complexity
+- Time: O(n log log n)
+- Space: O(n)
+
+
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🎯 Goals
 
