@@ -96,7 +96,16 @@ Explanation: Prime numbers less than 10 are 2, 3, 5, 7.
 - Time: O(n log log n)
 - Space: O(n)
 
+✅Day 13 - Remove Duplicates from Sorted Array
 
+## 🧩 Problem
+Given a sorted array, remove duplicates in-place such that each element appears only once and return the number of unique elements.
+
+## 🚀 Approach
+- Used **Two Pointer Technique**
+- One pointer (`i`) keeps track of unique elements
+- Another pointer (`j`) traverses the array
+- When a new element is found → place it next in sequence
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
