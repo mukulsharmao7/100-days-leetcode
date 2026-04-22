@@ -107,6 +107,34 @@ Given a sorted array, remove duplicates in-place such that each element appears 
 - Another pointer (`j`) traverses the array
 - When a new element is found → place it next in sequence
 
+ ✅Day 14 - Container With Most Water
+
+## 🔗 Problem
+Container With Most Water (LeetCode 11)
+
+## 🧠 Approach
+Used Two Pointer Technique:
+- Start with two ends of array
+- Calculate area
+- Move pointer with smaller height
+
+## ⏱ Time Complexity
+O(n)
+
+## 💾 Space Complexity
+O(1)
+
+## 🚀 Key Learning
+- Optimization from brute force to linear time
+- Two pointer strategy is powerful in array problems
+
+## 📌 Example
+Input:
+[1,8,6,2,5,4,8,3,7]
+
+Output:
+49
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🎯 Goals
