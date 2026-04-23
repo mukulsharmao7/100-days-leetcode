@@ -135,6 +135,24 @@ Input:
 Output:
 49
 
+✅ Day 15 - Two Sum
+
+## 🧩 Problem
+Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to target.
+
+## 🚀 Approach
+- Used HashMap (unordered_map)
+- Store value and index
+- Check if (target - current element) exists
+
+## ⏱ Complexity
+- Time: O(n)
+- Space: O(n)
+
+## 💡 Key Learning
+Hashing helps in reducing time complexity significantly compared to brute force.
+
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🎯 Goals
