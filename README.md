@@ -152,7 +152,21 @@ Given an array of integers `nums` and an integer `target`, return indices of the
 ## 💡 Key Learning
 Hashing helps in reducing time complexity significantly compared to brute force.
 
+✅ Day 16 - Valid Anagram
 
+## Problem
+Check if two strings are anagrams.
+
+## Approach
+Used frequency array to count characters.
+
+## Complexity
+- Time: O(n)
+- Space: O(1)
+
+## Example
+Input: "anagram", "nagaram"  
+Output: true
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🎯 Goals
