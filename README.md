@@ -168,6 +168,26 @@ Used frequency array to count characters.
 Input: "anagram", "nagaram"  
 Output: true
 
+
+✅ Day 17 - Valid Parentheses
+
+## Problem
+Check if brackets in a string are valid.
+
+## Approach
+Used stack:
+- Push opening brackets
+- Match and pop for closing brackets
+
+## Complexity
+- Time: O(n)
+- Space: O(n)
+
+## Example
+Input: "()[]{}"
+Output: true
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🎯 Goals
 
