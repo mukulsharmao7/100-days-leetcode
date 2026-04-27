@@ -187,7 +187,28 @@ Used stack:
 Input: "()[]{}"
 Output: true
 
+✅Day 18 - Group Anagrams
 
+## Problem
+Given an array of strings, group the anagrams together.
+
+## Example
+Input: ["eat","tea","tan","ate","nat","bat"]  
+Output: [["eat","tea","ate"],["tan","nat"],["bat"]]
+
+## Approach
+- Sort each string → use it as a key
+- Store in hashmap (key → list of anagrams)
+
+## Complexity
+- Time: O(n * k log k)
+- Space: O(n)
+
+## Learning
+- Learned grouping using hashmap
+- Understood how sorting helps identify anagrams
+
+  
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🎯 Goals
 
