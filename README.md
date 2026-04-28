@@ -209,6 +209,20 @@ Output: [["eat","tea","ate"],["tan","nat"],["bat"]]
 - Understood how sorting helps identify anagrams
 
   
+✅ Day 19 - Longest Common Prefix
+
+## 🧠 Problem
+Find the longest common prefix string among an array of strings.
+
+## 🚀 Approach
+- Compare characters index-wise across all strings
+- Stop at mismatch
+
+## ⏱ Complexity
+- Time: O(n * m)
+- Space: O(1)
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🎯 Goals
 
