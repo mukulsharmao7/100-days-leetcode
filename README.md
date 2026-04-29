@@ -222,7 +222,27 @@ Find the longest common prefix string among an array of strings.
 - Time: O(n * m)
 - Space: O(1)
 
+✅Day 20 - Add Two Numbers (LeetCode #2)
 
+## 🔹 Problem
+You are given two non-empty linked lists representing two non-negative integers.  
+The digits are stored in reverse order, and each node contains a single digit.  
+
+Add the two numbers and return the sum as a linked list.
+
+## 🔹 Approach
+- Traverse both linked lists
+- Add digits with carry
+- Store result in new linked list
+
+## 🔹 Time Complexity
+O(max(n, m))
+
+## 🔹 Space Complexity
+O(max(n, m))
+
+## 🔹 Key Concept
+Linked List + Carry Handling
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🎯 Goals
 
