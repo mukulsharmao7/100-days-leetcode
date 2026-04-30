@@ -243,6 +243,26 @@ O(max(n, m))
 
 ## 🔹 Key Concept
 Linked List + Carry Handling
+
+✅ Day 21 - Find Pivot Index
+
+## Problem
+Find index where left sum = right sum.
+
+## Approach
+- Calculate total sum
+- Traverse and maintain left sum
+- Check condition
+
+## Complexity
+- Time: O(n)
+- Space: O(1)
+
+## Learning
+- Prefix sum concept
+- Efficient traversal
+
+  
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🎯 Goals
 
