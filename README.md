@@ -262,6 +262,23 @@ Find index where left sum = right sum.
 - Prefix sum concept
 - Efficient traversal
 
+✅ Day 22 - Maximum Subarray (Kadane's Algorithm)
+
+## Problem
+Find the contiguous subarray with the largest sum.
+
+## Approach
+- Use Kadane’s Algorithm
+- At each step, decide to continue or restart subarray
+
+## Complexity
+- Time: O(n)
+- Space: O(1)
+
+## Learning
+- Greedy decision making
+- Sliding window intuition
+- Handling negative numbers
   
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🎯 Goals
