@@ -279,7 +279,24 @@ Find the contiguous subarray with the largest sum.
 - Greedy decision making
 - Sliding window intuition
 - Handling negative numbers
-  
+
+
+✅Day 23 - Intersection of Two Arrays
+
+## Problem
+Find unique common elements between two arrays.
+
+## Approach
+- Use set for fast lookup
+- Traverse second array and check presence
+
+## Complexity
+- Time: O(n + m)
+- Space: O(n)
+
+## Learning
+- HashSet usage
+- Duplicate handling
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🎯 Goals
 
