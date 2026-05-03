@@ -297,6 +297,36 @@ Find unique common elements between two arrays.
 ## Learning
 - HashSet usage
 - Duplicate handling
+
+✅Day 24 - Product of Array Except Self
+
+## 🔗 Problem
+https://leetcode.com/problems/product-of-array-except-self/
+
+## 🧠 Approach
+
+We calculate the result using two passes:
+
+1. Prefix pass → store product of all elements before index
+2. Suffix pass → multiply product of all elements after index
+
+This avoids division and works in O(n) time.
+
+## ⚡ Complexity
+
+- Time Complexity: O(n)
+- Space Complexity: O(1) (excluding output array)
+
+## 💻 Language
+C++
+
+## 🚀 Key Learning
+
+- Prefix & Suffix technique
+- Space optimization
+- Handling constraints without division
+
+---
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🎯 Goals
 
