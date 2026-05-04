@@ -326,6 +326,36 @@ C++
 - Space optimization
 - Handling constraints without division
 
+✅ Day 25 - Subarray Sum Equals K
+
+## 🔗 Problem
+https://leetcode.com/problems/subarray-sum-equals-k/
+
+## 🧠 Approach
+
+We use Prefix Sum + HashMap:
+
+- Maintain running sum
+- Check if (sum - k) exists in map
+- If yes → valid subarray found
+
+Store frequency of prefix sums in map.
+
+## ⚡ Complexity
+
+- Time Complexity: O(n)
+- Space Complexity: O(n)
+
+## 💻 Language
+C++
+
+## 🚀 Key Learning
+
+- Prefix sum pattern
+- Hashing for optimization
+- Counting subarrays efficiently
+
+---
 ---
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🎯 Goals
