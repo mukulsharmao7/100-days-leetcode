@@ -355,6 +355,35 @@ C++
 - Hashing for optimization
 - Counting subarrays efficiently
 
+✅ Day 26 - Longest Consecutive Sequence
+
+## 🔗 Problem
+https://leetcode.com/problems/longest-consecutive-sequence/
+
+## 🧠 Approach
+
+- Store all elements in a HashSet
+- Only start counting when (num - 1) is NOT present
+- Expand forward to count consecutive elements
+
+This ensures O(n) complexity.
+
+## ⚡ Complexity
+
+- Time Complexity: O(n)
+- Space Complexity: O(n)
+
+## 💻 Language
+C++
+
+## 🚀 Key Learning
+
+- Using HashSet for fast lookup
+- Avoiding redundant computations
+- Sequence detection pattern
+
+---
+
 ---
 ---
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
