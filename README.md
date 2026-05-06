@@ -382,8 +382,38 @@ C++
 - Avoiding redundant computations
 - Sequence detection pattern
 
+  
+✅ Day 27 - Top K Frequent Elements
+
+## 🔗 Problem
+https://leetcode.com/problems/top-k-frequent-elements/
+
+## 🧠 Approach
+
+1. Store frequency of each element using HashMap
+2. Push {frequency, element} into Max Heap
+3. Extract top K elements from heap
+
+Efficiently finds the most frequent elements.
+
+## ⚡ Complexity
+
+- Time Complexity: O(n log n)
+- Space Complexity: O(n)
+
+## 💻 Language
+C++
+
+## 🚀 Key Learning
+
+- Frequency counting with HashMap
+- Using Priority Queue / Heap
+- Efficient top-K element retrieval
+
 ---
 
+
+---
 ---
 ---
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
