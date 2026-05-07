@@ -411,6 +411,28 @@ C++
 - Efficient top-K element retrieval
 
 ---
+✅ Day 28 - Daily Temperatures
+
+## Problem
+For each day, find how many days must pass until a warmer temperature occurs.
+
+## Approach
+Used Monotonic Stack:
+- Store indices in decreasing temperature order
+- When a warmer day appears, calculate waiting days
+- Efficient single traversal solution
+
+## Time Complexity
+O(n)
+
+## Space Complexity
+O(n)
+
+## Concepts Learned
+- Monotonic Stack
+- Next Greater Element Pattern
+- Stack-based Optimization
+- Array Traversal
 
 
 ---
