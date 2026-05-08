@@ -434,6 +434,28 @@ O(n)
 - Stack-based Optimization
 - Array Traversal
 
+✅ Day 29 - Rotting Oranges
+
+## Problem
+Find the minimum time required to rot all fresh oranges in the grid.
+
+## Approach
+Used Multi-Source BFS:
+- Push all rotten oranges into queue initially
+- Spread rot level by level
+- Count minutes for each BFS layer
+
+## Time Complexity
+O(m × n)
+
+## Space Complexity
+O(m × n)
+
+## Concepts Learned
+- Multi-Source BFS
+- Grid Traversal
+- Queue Data Structure
+- Breadth First Search
 
 ---
 ---
