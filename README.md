@@ -457,6 +457,34 @@ O(m × n)
 - Queue Data Structure
 - Breadth First Search
 
+✅ Day 30 - LRU Cache
+
+## Problem
+Design and implement an LRU (Least Recently Used) cache.
+
+## Approach
+Used:
+- Doubly Linked List for maintaining usage order
+- HashMap for O(1) access
+
+### Key Idea
+- Most recently used items stay at the front
+- Least recently used items move to the back
+- Remove the back element when capacity is exceeded
+
+## Time Complexity
+- get() -> O(1)
+- put() -> O(1)
+
+## Space Complexity
+O(capacity)
+
+## Concepts Learned
+- Design Problems
+- HashMap + Linked List
+- Cache Eviction Policies
+- STL list Iterators
+
 ---
 ---
 ---
