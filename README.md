@@ -485,6 +485,24 @@ O(capacity)
 - Cache Eviction Policies
 - STL list Iterators
 
+✅ Day 31 - Best Time to Buy and Sell Stock
+
+## Problem
+Find the maximum profit that can be achieved from a single stock transaction.
+
+## Approach
+- Track minimum price seen so far
+- Compute profit at each step
+- Update maximum profit
+
+## Complexity
+- Time: O(n)
+- Space: O(1)
+
+## Key Learning
+Greedy tracking techniques help optimize array problems efficiently.
+
+
 ---
 ---
 ---
