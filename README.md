@@ -502,6 +502,22 @@ Find the maximum profit that can be achieved from a single stock transaction.
 ## Key Learning
 Greedy tracking techniques help optimize array problems efficiently.
 
+✅ Day 32 - Contains Duplicate
+
+## Problem
+Determine if any value appears at least twice in the array.
+
+## Approach
+- Use unordered_set for fast lookup
+- Check whether element already exists
+- Return true immediately if duplicate found
+
+## Complexity
+- Time: O(n)
+- Space: O(n)
+
+## Key Learning
+Hashing is one of the most powerful techniques for optimization in array problems.
 
 ---
 ---
