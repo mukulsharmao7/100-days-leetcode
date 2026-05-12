@@ -519,6 +519,29 @@ Determine if any value appears at least twice in the array.
 ## Key Learning
 Hashing is one of the most powerful techniques for optimization in array problems.
 
+✅ Day 33 - Decode String
+
+## Problem
+Decode an encoded string where patterns follow:
+k[encoded_string]
+
+Example:
+3[a2[c]] → accaccacc
+
+## Approach
+- Use stacks to store:
+  - Previous strings
+  - Repeat counts
+- Build decoded string step by step
+
+## Complexity
+- Time: O(n)
+- Space: O(n)
+
+## Concepts Learned
+- Stack
+- String Manipulation
+- Nested Parsing
 ---
 ---
 ---
