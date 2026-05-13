@@ -542,7 +542,27 @@ Example:
 - Stack
 - String Manipulation
 - Nested Parsing
+
+✅ Day 34 - Minimum Size Subarray Sum
+
+## Problem
+Find the minimal length of a subarray whose sum is greater than or equal to target.
+
+## Approach
+- Use sliding window
+- Expand window until condition satisfies
+- Shrink window to minimize size
+
+## Complexity
+- Time: O(n)
+- Space: O(1)
+
+## Concepts Learned
+- Sliding Window
+- Two Pointers
+- Array Optimization
 ---
+
 ---
 ---
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
