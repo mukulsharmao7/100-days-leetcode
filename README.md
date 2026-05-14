@@ -561,6 +561,33 @@ Find the minimal length of a subarray whose sum is greater than or equal to targ
 - Sliding Window
 - Two Pointers
 - Array Optimization
+
+✅ Day 35 Find the Duplicate Number
+
+## Problem
+Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.
+
+There is only one repeated number in nums, return this repeated number.
+
+You must solve the problem without modifying the array nums and uses only constant extra space.
+
+## Approach
+Used Floyd’s Tortoise and Hare (Cycle Detection) Algorithm.
+
+### Steps:
+1. Detect intersection point using slow and fast pointers.
+2. Move one pointer to start.
+3. Move both one step at a time.
+4. Meeting point is the duplicate number.
+
+## Complexity
+- Time: O(n)
+- Space: O(1)
+
+## Topics
+- Array
+- Two Pointers
+- Cycle Detection
 ---
 
 ---
