@@ -588,6 +588,28 @@ Used Floyd’s Tortoise and Hare (Cycle Detection) Algorithm.
 - Array
 - Two Pointers
 - Cycle Detection
+✅ Day 36 - Binary Search
+
+## Problem
+Implement Binary Search using an iterative approach.
+
+## Approach
+- Use two pointers: `low` and `high`
+- Find middle element
+- Compare middle element with target
+- Move left or right accordingly
+
+## Time Complexity
+O(log n)
+
+## Space Complexity
+O(1)
+
+## Concepts Learned
+- Binary Search
+- Divide and Conquer
+- Optimized Searching
+- Iterative Problem Solving
 ---
 
 ---
