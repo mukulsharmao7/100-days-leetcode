@@ -610,6 +610,28 @@ O(1)
 - Divide and Conquer
 - Optimized Searching
 - Iterative Problem Solving
+✅ Day 37 - Next Greater Element I
+
+## Problem
+Find the next greater element for each element in nums1 from nums2.
+
+## Approach
+- Traverse nums2 from right to left
+- Use stack to maintain greater elements
+- Store answers in hashmap
+- Retrieve answers for nums1
+
+## Time Complexity
+O(n)
+
+## Space Complexity
+O(n)
+
+## Concepts Learned
+- Monotonic Stack
+- HashMap
+- Stack Optimization
+- Array Traversal
 ---
 
 ---
