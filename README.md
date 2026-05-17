@@ -632,6 +632,31 @@ O(n)
 - HashMap
 - Stack Optimization
 - Array Traversal
+
+✅ Day 38 - Implement Queue using Stacks
+
+## Problem
+Implement a Queue using two stacks.
+
+## Approach
+- Use two stacks:
+  - input stack for push operations
+  - output stack for pop and peek operations
+- Transfer elements only when output stack becomes empty
+
+## Time Complexity
+- Push → O(1)
+- Pop → Amortized O(1)
+- Peek → Amortized O(1)
+
+## Space Complexity
+O(n)
+
+## Concepts Learned
+- Stack and Queue Relationship
+- FIFO vs LIFO
+- Amortized Analysis
+- Data Structure Design
 ---
 
 ---
