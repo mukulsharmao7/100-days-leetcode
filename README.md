@@ -657,6 +657,30 @@ O(n)
 - FIFO vs LIFO
 - Amortized Analysis
 - Data Structure Design
+✅ Day 39 - Evaluate Reverse Polish Notation
+
+## Problem
+Evaluate the value of an arithmetic expression in Reverse Polish Notation.
+
+## Approach
+- Use a stack
+- Push numbers into stack
+- When operator appears:
+  - Pop top two elements
+  - Perform operation
+  - Push result back
+
+## Time Complexity
+O(n)
+
+## Space Complexity
+O(n)
+
+## Concepts Learned
+- Stack Applications
+- Expression Evaluation
+- Postfix Expressions
+- String to Integer Conversion
 ---
 
 ---
